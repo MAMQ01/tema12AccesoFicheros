@@ -10,6 +10,7 @@ public class EjercicioA1 {
     public static void main(String[] args) {
 
         while (true) {
+            System.out.println(new File(".").getAbsolutePath());
             System.out.println("Ingrese la ruta a buscar");
             Scanner scanner = new Scanner(System.in);
             String rutaABuscar = scanner.nextLine();
@@ -26,6 +27,10 @@ public class EjercicioA1 {
             }
         }
 
+    }
+
+    public void muestraInfoRuta(File ruta) {
+        
     }
 
 }
